@@ -1,63 +1,46 @@
 {
   "groceries": [
-  
     {
       "id": "2",
       "name": "Tomatoes",
       "price": "10",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1024px-Tomato_je.jpg "
     },
-
     {
       "id": "3",
       "name": "Onions",
       "price": "10",
       "image": "https://resources.markon.com/sites/default/files/styles/large/public/pi_photos/Onions_Red_Hero.jpg "
     },
-
     {
       "id": "4",
       "name": "Carrots- Min 5pcs",
       "price": "50",
       "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80 "
     },
-
     {
       "id": "5",
       "name": "Egg Plant",
       "price": "10",
       "image": "https://media.istockphoto.com/id/173879887/photo/eggplants-isolated.jpg?s=2048x2048&w=is&k=20&c=T7SK5yEAQe-Qu1K_YDOYBifDjIs5T5ZCJIrh55wRq8M= "
     },
-
-    
     {
       "id": "6",
       "name": "Zuchinni",
       "price": "10",
       "image": "https://chefsmandala.com/wp-content/uploads/2018/03/Squash-Zucchini.jpg"
     },
-    
     {
       "id": "7",
       "name": "Cabbage",
       "price": "100",
       "image": "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2022/09/Benefits-Of-Cabbage-589153824-770x533-1-650x428.jpg "
     },
-
-    
-    {
-      "id": "8",
-      "name": "Spinach-Bunch",
-      "price": "30",
-      "image": "https://farmiken.com/wp-content/uploads/2020/10/spinach3.jpg "
-    },
-    
     {
       "id": "9",
       "name": "Sukuma Wiki- Kale Bunch",
       "price": "30",
       "image": "https://cdn.shopify.com/s/files/1/0018/8327/5325/products/0000000004614-removebg-preview-removebg-preview_1_1946x.jpg?v=1669704118 "
     }
-
   ]
 }
