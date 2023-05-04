@@ -29,43 +29,45 @@ function GroceryForm({ addItem }) {
 
   return (
     // Set up the form to call handleSubmit when the form is submitted
-    <form onSubmit={handleSubmit}>
-      {/** ...form inputs here */}
-      <label>
-        New Product Name:
-        <input
-          type="text"
-          name="name"
-          value={name}
-          placeholder="Enter New Product Name"
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
+    <div class="forms-container">
+      <form id="create-form" onSubmit={handleSubmit}>
+        {/** ...form inputs here */}
+        <label>
+          New Product Name:
+          <input
+            type="text"
+            name="name"
+            value={name}
+            placeholder="Enter New Product Name"
+            onChange={(e) => setName(e.target.value)}
+          />
+        </label>
 
-      <label>
-        {" "}
-        Price:
-        <input
-          type="text"
-          name="price"
-          placeholder=" Price"
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
-        />
-      </label>
+        <label>
+          {" "}
+          Price:
+          <input
+            type="text"
+            name="price"
+            placeholder=" Price"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+          />
+        </label>
 
-      <label>
-        Image URL:
-        <input
-          type="text"
-          id="image-url"
-          placeholder="Enter Image URL"
-          value={image}
-          onChange={(e) => setImage(e.target.value)}
-        />
-      </label>
-      <button type="submit">Add to List</button>
-    </form>
+        <label>
+          Image URL:
+          <input
+            type="text"
+            id="image-url"
+            placeholder="Enter Image URL"
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
+          />
+        </label>
+        <button type="submit">Add to List</button>
+      </form>
+    </div>
   );
 }
 

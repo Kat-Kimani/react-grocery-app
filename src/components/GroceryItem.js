@@ -32,10 +32,11 @@ function GroceryItem({ groceryItem, onUpdateItem, onDeleteItem }) {
   return (
     <li>
       {/* <h4>Item {id}</h4> */}
+
+      <img src={image} alt={name} />
       <h5>Name: {name}</h5>
       <p> Price: {price}</p>
       {/* <p> Image:{image}</p> */}
-      <img src={image} alt={name} />
       <button onClick={handleUpdateClick}>Update Item</button>
       <button onClick={handleDeleteClick}>Delete Item</button>
     </li>
